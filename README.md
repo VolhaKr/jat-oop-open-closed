@@ -1,7 +1,7 @@
 # jat-oop-open-closed
 Analyze the code and refactor it to remove switch expressions (Open-closed Principle)
 
-public class Employee {
+'public class Employee {
   private String name;
   private String type;
 
@@ -31,4 +31,4 @@ public class Employee {
     	throw new InvalidEmployeeType(e.type);
 	}
   }
-}
+}`
